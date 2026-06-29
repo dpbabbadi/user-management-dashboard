@@ -1,0 +1,43 @@
+.table-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th, td {
+  padding: 12px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+th {
+  color: var(--muted);
+  font-weight: 600;
+  user-select: none;
+}
+
+.th {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.sort { opacity: 0.9; }
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.empty {
+  padding: 20px;
+  color: var(--muted);
+  text-align: center;
+}
